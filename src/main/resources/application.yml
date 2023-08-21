@@ -8,7 +8,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:33306/test
+    url: jdbc:mariadb://localhost:33306/study
     username: root
     password: 1234
   jpa:
@@ -29,4 +29,6 @@ logging:
       hibernate:
         type.decriptor.sql: trace
         SQL: debug
+
+REST_API_KEY: "7936c010edf8c7cfdd8df63845d818cb"
 
